@@ -21,7 +21,7 @@ This repository contains the official implementation of **ConceptLM** and **Next
 We propose Next Concept Prediction (NCP), a generative pretraining paradigm built on top of Next Token Prediction (NTP). Our model, ConceptLM, quantizes hidden states using Vector Quantization and constructs a concept vocabulary. It leverages both NCP and NTP to drive parameter updates and generates a concept to guide the generation of the following tokens. 
 
 **Key highlights:**
-- Introduce a **Harder** LLM pre-training objective for **NCP**
+- Introduce a **Harder** LLM pre-training objective for **NCP**.
 - Build up **Concept Representation in Discrete Latent Space (Concept Vocabulary)** upon LLM latent space.
 - Introduce a **Novel** architecture **ConceptLM** integrates NCP and NTP.
 
