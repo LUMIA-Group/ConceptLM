@@ -10,7 +10,7 @@ This repository contains the official implementation of **ConceptLM** and **Next
 - [x] Release models
 - [x] Release test code
 - [ ] Release training code
-- ...
+- [ ] ...
 
 
 ---
@@ -73,6 +73,8 @@ bash run_lm_eval.sh
 ```
 
 ## 📖 Citation
+
+If you have any questions or interest in our work, please feel free to contact us at liuyl03181@gmail.com.
 
 If you find this work useful, please consider citing our paper:
 
