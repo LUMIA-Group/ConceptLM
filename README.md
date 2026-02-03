@@ -76,14 +76,14 @@ bash run_lm_eval.sh
 
 ## 📖 Citation
 
-If you have any questions or interest in our work, please feel free to contact us at liuyl03181@gmail.com.
+If you have any questions or are interested in our work, please feel free to contact us at liuyl03181@gmail.com.
 
 If you find this work useful, please consider citing our paper:
 
 ```bibtex
 @article{conceptlm2026,
-  title   = {Coming},
-  author  = {Coming},
-  journal = {Coming},
+  title   = {Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models},
+  author  = {Yuliang Liu and Yunchong Song and Yixuan Wang and Kewen Ge and Alex Lamb and Qipeng Guo and Kai Chen and Bowen Zhou and Zhouhan Lin},
+  journal = {Arxiv},
   year    = {2026}
 }
