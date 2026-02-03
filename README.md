@@ -7,8 +7,9 @@
 
 This repository contains the official implementation of **ConceptLM** and **Next-Concept-Prediction (NCP)**, 
 
-- [x] Release models
+- [x] Release ConceptLM models (The largest Pythia and Llama model are released)
 - [x] Release test code
+- [ ] Release all models, we are going to release all our trained models and training curves
 - [ ] Release training code
 - [ ] ...
 
