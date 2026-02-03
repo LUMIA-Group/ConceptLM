@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+*.ipynb_checkpoints/
+
+# Environment
+.env/
+.venv/
+env/
+venv/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Logs & temp files
+*.log
+*.tmp
+*.out
+
+# Model checkpoints
+*.pt
+*.ckpt
+*.pth
+*.bin
+
+# Dataset caches
+*.zip
+*.tar.gz
+*.h5
+*.npy
+*.npz
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+__pycache__/

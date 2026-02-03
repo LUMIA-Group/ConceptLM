@@ -1,0 +1,107 @@
+Metadata-Version: 2.4
+Name: lm_eval
+Version: 0.4.9.2
+Summary: A framework for evaluating language models
+Author-email: EleutherAI <contact@eleuther.ai>
+License: MIT
+Project-URL: Homepage, https://github.com/EleutherAI/lm-evaluation-harness
+Project-URL: Repository, https://github.com/EleutherAI/lm-evaluation-harness
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: accelerate>=0.26.0
+Requires-Dist: evaluate
+Requires-Dist: datasets>=2.16.0
+Requires-Dist: evaluate>=0.4.0
+Requires-Dist: jsonlines
+Requires-Dist: numexpr
+Requires-Dist: peft>=0.2.0
+Requires-Dist: pybind11>=2.6.2
+Requires-Dist: pytablewriter
+Requires-Dist: rouge-score>=0.0.4
+Requires-Dist: sacrebleu>=1.5.0
+Requires-Dist: scikit-learn>=0.24.1
+Requires-Dist: sqlitedict
+Requires-Dist: torch>=1.8
+Requires-Dist: tqdm-multiprocess
+Requires-Dist: transformers>=4.1
+Requires-Dist: zstandard
+Requires-Dist: dill
+Requires-Dist: word2number
+Requires-Dist: more_itertools
+Provides-Extra: api
+Requires-Dist: requests; extra == "api"
+Requires-Dist: aiohttp; extra == "api"
+Requires-Dist: tenacity; extra == "api"
+Requires-Dist: tqdm; extra == "api"
+Requires-Dist: tiktoken; extra == "api"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Provides-Extra: deepsparse
+Requires-Dist: deepsparse-nightly[llm]>=1.8.0.20240404; extra == "deepsparse"
+Provides-Extra: gptq
+Requires-Dist: auto-gptq[triton]>=0.6.0; extra == "gptq"
+Provides-Extra: hf-transfer
+Requires-Dist: hf_transfer; extra == "hf-transfer"
+Provides-Extra: ifeval
+Requires-Dist: langdetect; extra == "ifeval"
+Requires-Dist: immutabledict; extra == "ifeval"
+Requires-Dist: nltk>=3.9.1; extra == "ifeval"
+Provides-Extra: neuronx
+Requires-Dist: optimum[neuronx]; extra == "neuronx"
+Provides-Extra: mamba
+Requires-Dist: mamba_ssm; extra == "mamba"
+Requires-Dist: causal-conv1d==1.0.2; extra == "mamba"
+Provides-Extra: math
+Requires-Dist: sympy>=1.12; extra == "math"
+Requires-Dist: antlr4-python3-runtime==4.11; extra == "math"
+Provides-Extra: multilingual
+Requires-Dist: nagisa>=0.2.7; extra == "multilingual"
+Requires-Dist: jieba>=0.42.1; extra == "multilingual"
+Requires-Dist: pycountry; extra == "multilingual"
+Provides-Extra: optimum
+Requires-Dist: optimum[openvino]; extra == "optimum"
+Provides-Extra: promptsource
+Requires-Dist: promptsource>=0.2.3; extra == "promptsource"
+Provides-Extra: sentencepiece
+Requires-Dist: sentencepiece>=0.1.98; extra == "sentencepiece"
+Provides-Extra: sparseml
+Requires-Dist: sparseml-nightly[llm]>=1.8.0.20240404; extra == "sparseml"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: pytest-xdist; extra == "testing"
+Provides-Extra: vllm
+Requires-Dist: vllm>=0.4.2; extra == "vllm"
+Provides-Extra: zeno
+Requires-Dist: pandas; extra == "zeno"
+Requires-Dist: zeno-client; extra == "zeno"
+Provides-Extra: wandb
+Requires-Dist: wandb>=0.16.3; extra == "wandb"
+Requires-Dist: pandas; extra == "wandb"
+Requires-Dist: numpy; extra == "wandb"
+Provides-Extra: all
+Requires-Dist: lm_eval[anthropic]; extra == "all"
+Requires-Dist: lm_eval[dev]; extra == "all"
+Requires-Dist: lm_eval[deepsparse]; extra == "all"
+Requires-Dist: lm_eval[gptq]; extra == "all"
+Requires-Dist: lm_eval[hf_transfer]; extra == "all"
+Requires-Dist: lm_eval[ifeval]; extra == "all"
+Requires-Dist: lm_eval[mamba]; extra == "all"
+Requires-Dist: lm_eval[math]; extra == "all"
+Requires-Dist: lm_eval[multilingual]; extra == "all"
+Requires-Dist: lm_eval[openai]; extra == "all"
+Requires-Dist: lm_eval[promptsource]; extra == "all"
+Requires-Dist: lm_eval[sentencepiece]; extra == "all"
+Requires-Dist: lm_eval[sparseml]; extra == "all"
+Requires-Dist: lm_eval[testing]; extra == "all"
+Requires-Dist: lm_eval[vllm]; extra == "all"
+Requires-Dist: lm_eval[zeno]; extra == "all"
+Requires-Dist: lm_eval[wandb]; extra == "all"
