@@ -43,12 +43,13 @@ We implement the generate function for Llama model. So that the details of Conce
 .
 ├── figures/        
 ├── lm_eval/   
-    ├── lm_eval_utils/
-    ├── ConceptLM_arc/
-        ├── ConceptLM_GPT2/
-        ├── ConceptLM_Pythia/
-        └── ConceptLM_Llama/
-    └── README.md
+  ├── lm_eval/   
+      ├── lm_eval_files/
+      ├── ConceptLM_arc/
+          ├── ConceptLM_GPT2/
+          ├── ConceptLM_Pythia/
+          └── ConceptLM_Llama/
+      └── README.md
 └── README.md
 ```
 
