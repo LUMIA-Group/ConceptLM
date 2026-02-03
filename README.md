@@ -22,7 +22,7 @@ We propose Next Concept Prediction (NCP), a generative pretraining paradigm buil
 
 **Key highlights:**
 - Introduce a **Harder** LLM pre-training objective for **NCP**
-- Build up a **Discrete Latent Space (Concept Vocabulary)** upon LLM latent space.
+- Build up **Concept Representation in Discrete Latent Space (Concept Vocabulary)** upon LLM latent space.
 - Introduce a **Novel** architecture **ConceptLM** integrates NCP and NTP.
 
 
