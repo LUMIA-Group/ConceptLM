@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/XXXX.XXXXX">📄 arXiv</a> ·
-  <a href="https://huggingface.co/collections/Yuliang101/conceptlm">🤗 Hugging Face</a>
+  <a href="https://huggingface.co/collections/yuliang03181/conceptlm">🤗 Hugging Face</a>
 </p>
 
 This repository contains the official implementation of **ConceptLM** and **Next-Concept-Prediction (NCP)**, 
