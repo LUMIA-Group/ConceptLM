@@ -7,9 +7,9 @@
 
 This repository contains the official implementation of **ConceptLM** and **Next-Concept-Prediction (NCP)**, 
 
-- [x] Release ConceptLM models (The largest Pythia and Llama model are released)
+- [x] Release ConceptLM models (The largest Pythia and Llama models are released)
 - [x] Release test code
-- [ ] Release all models, we are going to release all our trained models and training curves
+- [ ] Release all models, including ablation studies, analyses, and their training curves
 - [ ] Release training code
 - [ ] ...
 
@@ -22,7 +22,7 @@ We propose Next Concept Prediction (NCP), a generative pretraining paradigm buil
 
 **Key highlights:**
 - Introduce a **Harder** LLM pre-training objective for **NCP**.
-- Build up **Concept Representation in Discrete Latent Space (Concept Vocabulary)** upon LLM latent space.
+- Build up **Concept Representation in Discrete Latent Space (Concept Vocabulary)** upon LLM continuous latent space.
 - Introduce a **Novel** architecture **ConceptLM** integrates NCP and NTP.
 
 
@@ -37,7 +37,7 @@ We propose Next Concept Prediction (NCP), a generative pretraining paradigm buil
 
 ## 📁 Code Structure
 
-We implement the generate function for Llama model. So that the details of ConceptLM_Llama differs from the Pythia and GPT-2 implementations.
+We implement the generate function for the Llama model. So that the details of ConceptLM_Llama differ from the Pythia and GPT-2 implementations.
 
 
 ```text
